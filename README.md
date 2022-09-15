@@ -1,75 +1,65 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+n![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Bookstore -  Initialize project with Components
 
-> Description the project.
+This is the first milestone of "Bookstore", a MVP website that allows you to:
+-Display a list of books.
+-Add a book.
+-Remove a selected book.
 
+By building this application, you will learn how to use React and Redux.
+
+This is the sixth Milestone of a website for all fans of mathematics. 
+It is a Single Page App (SPA) that allows users to:
+    -Make simple calculations.
+    -Read a math-related quote.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Redux
+- React JS 
+    { 
+      components, events, states, hooks, 
+      props, router, reducers and actions
+    }
+- JSX
+- JavaScript
+- Webpack
+- GitFlow
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+(Under construction)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- To get a local copy up, clone the repo like this: 
 
+  git clone https://github.com/cmolinan/Math-Magicians.git
 
-To get a local copy up and running follow these simple example steps.
+- Install the dependencies using `npm install` and then run the project from the root of the folder using this command `npm run start`
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+## Author
+- Carlos Molina
+  GitHub: https://github.com/cmolinan
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
+Feel free to check the issues page.
 Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+## Acknowledgments 
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+This webpage is based on a Microverse request
+
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+ 
