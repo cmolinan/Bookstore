@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './book.css';
 
-function Book(props) {
+const Book = (props) => {
   const { book } = props;
   const { id, author, title } = book;
 
@@ -17,7 +17,7 @@ function Book(props) {
       </div>
     </li>
   );
-}
+};
 
 export default Book;
 

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Book from './Book';
 
-function ShowBooks(props) {
+const ShowBooks = (props) => {
   const { bookArray } = props;
 
   return (
@@ -15,7 +15,7 @@ function ShowBooks(props) {
       ))}
     </ul>
   );
-}
+};
 
 export default ShowBooks;
 

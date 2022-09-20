@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function AddBook() {
+const AddBook = () => {
   const [inputText, setInputText] = useState({ title: '', author: '' });
 
   const onChange = (e) => {
@@ -36,6 +36,6 @@ function AddBook() {
       </form>
     </>
   );
-}
+};
 
 export default AddBook;
