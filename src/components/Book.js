@@ -1,10 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './book.css';
+import { useDispatch } from 'react-redux';
+import { removeBook } from '../redux/books/books';
 
 const Book = (props) => {
+  const dispatch = useDispatch();
   const { book } = props;
   const { id, author, title } = book;
+
+  const handleRemove = () => {
+    dispatch(removeBook(id));
+  };
 
   return (
     <li key={id} className="bookLi">
@@ -13,7 +20,7 @@ const Book = (props) => {
         <p className="author">{author}</p>
       </div>
       <div className="otherInfo">
-        <button type="button">Remove</button>
+        <button type="button" onClick={handleRemove}>Remove</button>
       </div>
     </li>
   );
@@ -23,7 +30,7 @@ export default Book;
 
 Book.defaultProps = {
   book: {
-    id: 0,
+    id: '',
     title: '',
     author: '',
   },
@@ -33,7 +40,7 @@ Book.propTypes = {
   book:
     PropTypes.shape(
       {
-        id: PropTypes.number,
+        id: PropTypes.string,
         title: PropTypes.string,
         author: PropTypes.string,
       },

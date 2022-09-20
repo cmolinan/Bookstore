@@ -1,17 +1,34 @@
 import React, { useState } from 'react';
+import { v4 as uuidv4 } from 'uuid';
+import { useDispatch } from 'react-redux';
+import { addNewBook } from '../redux/books/books';
 
 const AddBook = () => {
   const [inputText, setInputText] = useState({ title: '', author: '' });
+  const dispatch = useDispatch();
 
   const onChange = (e) => {
     setInputText({
       ...inputText,
-      [e.target.name]: e.target.name,
+      [e.target.name]: e.target.value,
     });
   };
   const submitHandler = (e) => {
     e.preventDefault();
+    const newBook = {
+      id: uuidv4(),
+      title: inputText.title,
+      author: inputText.author,
+    };
+
+    dispatch(addNewBook(newBook));
+
+    setInputText({
+      title: '',
+      author: '',
+    });
   };
+
   return (
     <>
       <h3 className="heading">ADD NEW BOOK</h3>
@@ -23,6 +40,7 @@ const AddBook = () => {
           value={inputText.title}
           name="title"
           onChange={onChange}
+          required
         />
         <input
           type="text"
@@ -31,6 +49,7 @@ const AddBook = () => {
           value={inputText.author}
           name="author"
           onChange={onChange}
+          required
         />
         <button type="submit"> Add Book</button>
       </form>

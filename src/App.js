@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
-
+import { Provider } from 'react-redux';
+import store from './redux/configureStore';
 import Header from './components/Header';
 import Home from './pages/HomePage';
 import Categories from './pages/CategoriesPage';
@@ -22,7 +23,9 @@ const App = () => (
     .render(
       <React.StrictMode>
         <Router>
-          <WebApp />
+          <Provider store={store}>
+            <WebApp />
+          </Provider>
         </Router>
       </React.StrictMode>,
     )
