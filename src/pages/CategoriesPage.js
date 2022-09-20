@@ -1,8 +1,20 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
+import { checkStatus } from '../redux/categories/categories';
 
-const CategoriesPage = () => (
-  <div className="categories-container">
-    <button type="button">Check status</button>
-  </div>
-);
+const CategoriesPage = () => {
+  const dispatch = useDispatch();
+  const clickHandle = () => {
+    dispatch(checkStatus());
+  };
+
+  return (
+    <div>
+      <button type="button" onClick={clickHandle}>Check status</button>
+      <br />
+      Under Construction
+    </div>
+  );
+};
+
 export default CategoriesPage;
