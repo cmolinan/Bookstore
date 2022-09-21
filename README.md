@@ -1,13 +1,12 @@
 n![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Bookstore -  Add Reducers and Actions
-This is the second milestone of "Bookstore", a MVP website that allows you to:
+# Bookstore -  Use Redux in React components
+This is the third milestone of "Bookstore", a MVP website that allows you to:
 -Display a list of books.
 -Add a book.
 -Remove a selected book.
 ## Built With
-- Redux
-- React JS 
+- Redux and React JS 
     { 
       components, events, states, hooks, 
       props, router, reducers and actions
