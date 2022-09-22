@@ -1,7 +1,7 @@
 n![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Bookstore -  Use Redux in React components
-This is the third milestone of "Bookstore", a MVP website that allows you to:
+# Bookstore -  Connect to API
+This is the fourth milestone of "Bookstore", a MVP website that allows you to:
 -Display a list of books.
 -Add a book.
 -Remove a selected book.
