@@ -22,9 +22,11 @@ const Book = (props) => {
     <li key={id}>
       <div className="bookLi">
         <div className="description">
-          <p className="category">{category}</p>
-          <p className="title">{title}</p>
-          <p className="author">{author}</p>
+          <div className="main-description">
+            <p className="category">{category}</p>
+            <p className="title">{title}</p>
+            <p className="author">{author}</p>
+          </div>
           <div className="buttons-div">
             <button type="button" className="button">Comments</button>
             <div className="divider"> </div>

@@ -19,7 +19,7 @@ body {
 /* Main Container */
 #mainDiv {
   margin: 3% auto;
-  width: 85%;
+  width: 90%;
   background-color: #fafafa;
 }
 
@@ -28,14 +28,29 @@ body {
   margin: 4% auto;
 }
 
-/* html {
-  background-image: url('./images/math1b.png');
-  background-position: center center;
-} */
+.addBookContainer {
+  margin: 2% auto 4% auto;
+  width: 85%;
+}
+
+@media only screen and (max-width: 767px) {
+  #MainDiv {
+    margin: auto;
+    width: 90%;
+  }
+
+  .ul-container {
+    width: 90%;
+  }
+
+  .addBookContainer {
+    width: 90%;
+  }
+}
 
 @media only screen and (max-width: 479px) {
   #MainDiv {
     margin: auto;
-    width: 85%;
+    width: 90%;
   }
 }
