@@ -6,7 +6,6 @@ import store from './redux/configureStore';
 import Header from './components/Header';
 import Home from './pages/HomePage';
 import Categories from './pages/CategoriesPage';
-import './App.css';
 
 const WebApp = () => (
   <>

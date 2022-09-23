@@ -47,26 +47,3 @@ const AddBook = () => {
 };
 
 export default AddBook;
-
-/* <h3 className="heading">ADD NEW BOOK</h3>
-<form className="form-container" onSubmit={submitHandler}>
-<input
-  type="text"
-  className="inputTextBox"
-  placeholder="Book"
-  value={inputText.title}
-  name="title"
-  onChange={onChange}
-  required
-/>
-<input
-  type="text"
-  className="inputTextBox"
-  placeholder="Author"
-  value={inputText.author}
-  name="author"
-  onChange={onChange}
-  required
-/>
-<button type="submit"> Add Book</button>
-</form> */
