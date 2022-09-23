@@ -5,12 +5,28 @@
   margin: auto;
   width: 100%;
   text-align: center;
+  background-color: white;
+  height: 5.87rem;
 }
 
 .header_container h3 {
-  font-size: 45px;
+  text-align: left;
+  width: auto;
+  height: 2.313rem;
+  margin: 0.375rem 2.938rem 0.125rem 0;
+  padding-left: 7.5%;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0290ff;
+
+  /* font-size: 45px;
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 15px; */
 }
 
 .navlist {
@@ -18,18 +34,29 @@
   list-style: none;
 }
 
-.navlink,
-.navlink_l {
+/* .navlink_l  */
+.navlink {
   padding: 0 10px;
-  border-right: 2px solid black;
 }
 
-.navlink_l {
+/* .navlink_l {
   border-right: none;
-}
+} */
 
 .navlist a {
-  font-size: 20px;
+  /* font-size: 20px; */
+  width: 3.688rem;
+  height: 1rem;
+  margin: 1.125rem 2.563rem 0.688rem 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 0.813rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: #121212;
+  text-decoration: none;
 }
 
 .navlist a:visited {
