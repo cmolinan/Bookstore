@@ -1,10 +1,12 @@
 n![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Bookstore -  Connect to API
-This is the fourth milestone of "Bookstore", a MVP website that allows you to:
+# Bookstore -  Final
+This is the last milestone of "Bookstore", a MVP website that allows you to:
 -Display a list of books.
 -Add a book.
 -Remove a selected book.
+-Data stored using an API
+
 ## Built With
 - Redux and React JS 
     { 

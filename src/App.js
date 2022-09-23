@@ -9,13 +9,13 @@ import Categories from './pages/CategoriesPage';
 import './App.css';
 
 const WebApp = () => (
-  <div>
+  <>
     <Header />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/categories" element={<Categories />} />
     </Routes>
-  </div>
+  </>
 );
 
 const App = () => (

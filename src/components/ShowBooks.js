@@ -12,7 +12,7 @@ const ShowBooks = () => {
   }, [dispatch]);
 
   return (
-    <ul>
+    <ul className="ul-container">
       {bookArray.map((book) => (
         <Book
           key={book.id}

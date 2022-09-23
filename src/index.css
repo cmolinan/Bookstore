@@ -1,21 +1,31 @@
-/* :root {
-  --widthBtn: 260px;
-  --heightBtn: 80px;
-} */
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700&family=Roboto+Slab:wght@300;400;500;700&display=swap);
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
   font-family: 'Verdana', sans-serif;
   font-style: normal;
-  font-size: 18px;
+  font-size: 16px;
+}
+
+body {
+  background-color: #f5f6fa;
 }
 
 /* Main Container */
 #mainDiv {
-  margin: auto;
-  width: 70%;
+  margin: 3% auto;
+  width: 85%;
+  background-color: #fafafa;
+}
+
+.ul-container {
+  width: 85%;
+  margin: 4% auto;
 }
 
 /* html {
